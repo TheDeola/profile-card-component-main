@@ -12,7 +12,8 @@ body {
     padding: 0 auto;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
-    background-image: url(/images/bg-pattern-bottom.svg);
+    background: url("./images/bg-pattern-top.svg") right 50vw bottom 40vh no-repeat, 
+                url("./images/bg-pattern-bottom.svg") 50vw 50vh no-repeat hsl(185, 75%, 39%); 
 }
 .container {
     width: 352px;
